@@ -30,7 +30,6 @@ import (
 
 type App interface {
 	Call(string, *[]byte) error
-
 	Who(bool, *[]byte) error
 }
 
